@@ -8,7 +8,7 @@ enum AuthStatus { unknown, authenticated, unauthenticated }
 
 class AuthRepository {
   final _controller = StreamController<AuthStatus>();
-  final String baseUrl = 'https://dummyjson.com'; // 
+  final String baseUrl = 'https://dummyjson.com'; 
   final Dio dio = Dio();
 
   AuthToken? _currentToken;

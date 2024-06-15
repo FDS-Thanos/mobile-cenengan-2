@@ -5,12 +5,12 @@ class AppBarWidget extends StatelessWidget implements PreferredSizeWidget {
   final String text;
 
   const AppBarWidget({
-    Key? key,
+    super.key,
     required this.text,
-  }) : super(key: key);
+  });
 
   @override
-  Size get preferredSize => const Size.fromHeight(kToolbarHeight);
+  Size get preferredSize => const Size.fromHeight(kToolbarHeight + 16);
 
   @override
   Widget build(BuildContext context) {

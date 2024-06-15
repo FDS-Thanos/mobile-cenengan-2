@@ -139,19 +139,6 @@ class LoginForm extends StatelessWidget {
           ),
         ),
       ),
-      // child: const Align(
-      //   alignment: Alignment(0, -1 / 3),
-      //   child: Column(
-      //     mainAxisAlignment: MainAxisAlignment.center,
-      //     children: [
-      //       InputUsername(),
-      //       Padding(padding: EdgeInsets.all(12)),
-      //       InputPassword(),
-      //       Padding(padding: EdgeInsets.all(12)),
-      //       ButtonSubmit(),
-      //     ],
-      //   ),
-      // ),
     );
   }
 }

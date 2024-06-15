@@ -40,11 +40,16 @@ dependencies:
   flutter_bloc: ^8.1.5
   flutter_screenutil: ^5.9.0
   flutter_blurhash: ^0.7.0
+  dio: ^5.4.3+1
+  lottie: ^1.0.0
+  percent_indicator: ^4.2.3
+
   # menggunakan 2 repository lokal
   auth_repository:
     path: packages/auth_repository
   user_repository:
     path: packages/user_repository
+  curved_navigation_bar: ^1.0.3
 
 dev_dependencies:
   flutter_test:
@@ -71,7 +76,7 @@ flutter:
   assets:
     - assets/images/yuni.png
     - assets/images/ic-slip-gaji.png
-
+    - assets/transfer.json
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
